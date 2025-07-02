@@ -55,3 +55,7 @@ If your plugin does not need CSS, delete this file.
     background-color: var(--background-modifier-hover);
     cursor: pointer;
 }
+.slot-cell.selected {
+    background-color: rgba(100, 150, 255, 0.4);
+  }
+  
