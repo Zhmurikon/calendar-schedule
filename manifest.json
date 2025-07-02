@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"id": "calendar-schedule",
+	"name": "Calendar Schedule",
+	"version": "0.0.1",
+	"minAppVersion": "1.0.0",
+	"description": "Календарь с временными окнами для планирования задач",
+	"author": "Юрий Коньков",
+	"authorUrl": "https://github.com/Zhmurikon",
 	"isDesktopOnly": false
-}
+  }
+  
