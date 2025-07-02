@@ -6,3 +6,52 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+
+
+.calendar-schedule-root {
+    display: flex;
+    height: 100%;
+}
+
+.calendar-schedule-sidebar {
+    width: 200px;
+    border-right: 1px solid var(--divider-color);
+    padding: 10px;
+}
+
+.calendar-schedule-calendar {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.calendar-schedule-grid {
+    display: grid;
+    grid-template-columns: 60px repeat(7, 1fr);
+}
+
+.calendar-schedule-row {
+    display: contents;
+}
+
+.calendar-schedule-cell {
+    border: 1px solid var(--divider-color);
+    padding: 4px;
+    text-align: center;
+    min-height: 40px;
+}
+
+.time-cell {
+    background-color: var(--background-secondary);
+    font-weight: bold;
+}
+
+.day-cell {
+    background-color: var(--background-secondary-alt);
+    font-weight: bold;
+}
+
+.slot-cell:hover {
+    background-color: var(--background-modifier-hover);
+    cursor: pointer;
+}
